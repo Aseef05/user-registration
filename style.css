@@ -1,0 +1,72 @@
+/* Index.html Style */
+body {
+  background-color: #eaeaea;
+  font-family: arial;
+}
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 20px;
+  padding: 20px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.name {
+  justify-content: space-between;
+}
+.lastname {
+  margin-left: 20px;
+}
+label {
+  width: 140px;
+}
+input {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px;
+  margin-left: 5px;
+  width: 100%;
+}
+button {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* Index.php Style */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.container2  {
+  width: 80%;
+  margin: 100px auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 20px;
+  padding: 20px;
+}
